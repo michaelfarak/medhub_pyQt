@@ -20,7 +20,7 @@ class GUILayout(QMainWindow):
 
         self.current_image_index = 0
         self.setWindowTitle("Medhub exercise")
-        self.setFixedSize(1280, 1080)
+        self.setFixedSize(1280, 1024)
         self.layout = QVBoxLayout()
         self.layout.addWidget(self.create_left_button())
         self.create_image_container()
